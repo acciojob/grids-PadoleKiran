@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+.container{
+	width: 600px;
+	border: 2px solid rgb(4, 255, 4);
+	background-color: rgb(41, 0, 0);
+	margin: 20px auto;
+}
+
+.row {
+        border: 5px solid rgb(255, 188, 188);
+        height: 200px;
+      }
+[class*="col"] {
+        border: 2px dotted rgb(38, 38, 43);
+      }
+.row:nth-child(1) .col-md-4 {
+	background-color: teal;
+}
+
+.row:nth-child(1) .col-md-8 {
+	background-color: thistle;
+}
+
+.row:nth-child(2) .col-md-4:first-child {
+	background-color: tomato;
+}
+
+.row:nth-child(2) .col-md-4:last-child {
+	background-color: turquoise;
+}
+
+.row:nth-child(3) .col-md-4:first-child {
+	background-color: violet;
+}
+
+.row:nth-child(3) .col-md-4:last-child {
+	background-color: yellowgreen;
+}
