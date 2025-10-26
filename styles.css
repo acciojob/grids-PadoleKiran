@@ -10,7 +10,7 @@
 .row {
         border: 5px solid rgb(255, 188, 188);
         height: 200px;
-	justify-content-between: center;
+	/* justify-content-between: center; */
       }
 [class*="col"] {
         border: 2px dotted rgb(38, 38, 43);
